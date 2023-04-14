@@ -1,0 +1,6 @@
+reload_rest:
+  alias: Reload REST
+  sequence:
+  - service: rest.reload
+    data: {}
+  mode: single

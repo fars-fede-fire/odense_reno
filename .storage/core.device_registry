@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "7bf66e03d6300ad0b1311e95b28be8a6"
+        ],
+        "configuration_url": "https://mit.odenserenovation.dk/hentkalender",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e252dc0e092588337bd7396692fb144c",
+        "identifiers": [
+          [
+            "odense_reno",
+            "131806"
+          ]
+        ],
+        "manufacturer": "Odense Renovation",
+        "model": null,
+        "name_by_user": null,
+        "name": "Odense Renovation",
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "odense_reno",
+            "272276"
+          ]
+        ],
+        "id": "ed35c3a17e86050ab5ce116057ae7a92",
+        "orphaned_timestamp": 1677155442.689233
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "odense_reno",
+            "285069"
+          ]
+        ],
+        "id": "e5c9789c1f589a8ea8a8bfb076a833b7",
+        "orphaned_timestamp": 1677157329.299087
+      }
+    ]
+  }
+}

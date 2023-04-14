@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.jonas",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "jonas",
+          "user_id": "ddb87a55c6f24925a85ee22713e41f7e",
+          "friendly_name": "jonas"
+        },
+        "last_changed": "2023-04-14T07:36:06.982720+00:00",
+        "last_updated": "2023-04-14T07:36:08.172689+00:00",
+        "context": {
+          "id": "01GXZB2SQCH5M6TM3ZPNY23X6J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-14T07:52:50.855153+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.h_c_andersen",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "h_c_andersen",
+          "user_id": "23a6234873204d2391581764b19177c2",
+          "friendly_name": "H. C. Andersen"
+        },
+        "last_changed": "2023-04-14T07:36:06.982984+00:00",
+        "last_updated": "2023-04-14T07:36:08.172820+00:00",
+        "context": {
+          "id": "01GXZB2SQC83ESG6FAS6GASHNN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-14T07:52:50.855153+00:00"
+    }
+  ]
+}

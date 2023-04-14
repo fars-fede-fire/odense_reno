@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "person.h_c_andersen"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.odense_renovation_odense_reno_munkemollestraede_3_glas_metal",
+                "sensor.odense_renovation_odense_reno_munkemollestraede_3_madaffald",
+                "sensor.odense_renovation_odense_reno_munkemollestraede_3_papir_smat_pap",
+                "sensor.odense_renovation_odense_reno_munkemollestraede_3_restaffald"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
