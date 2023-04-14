@@ -32,7 +32,7 @@ PLATFORMS = [Platform.SENSOR]
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up Odense Renovation from a config entry."""
     session = async_get_clientsession(hass)
-    odensereno = OdenseReno(
+    odense_reno = OdenseReno(
         address_no=entry.data[CONF_API_KEY],
         session=session,
     )
@@ -42,7 +42,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         LOGGER,
         name=DOMAIN,
         update_interval=SCAN_INTERVAL,
-        update_method=odensereno.get_pickup_dates,
+        update_method=odense_reno.get_pickup_dates,
     )
     await coordinator.async_config_entry_first_refresh()
 
