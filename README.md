@@ -1,9 +1,13 @@
 # Odense Renovation
+# Odense Renovation
 
+Home Assistant custom component for getting trash and recycle pickup dates from Odense Renovation
 Home Assistant custom component for getting trash and recycle pickup dates from Odense Renovation
 
 Available as custom repository in HACS
+Available as custom repository in HACS
 
+Heavily based on https://github.com/home-assistant/core/tree/dev/homeassistant/components/twentemilieu by @frenck
 Heavily based on https://github.com/home-assistant/core/tree/dev/homeassistant/components/twentemilieu by @frenck
 
 ## Setup
