@@ -34,4 +34,5 @@ class OdenseRenoEntity(CoordinatorEntity[DataUpdateCoordinator], Entity):
             identifiers={(DOMAIN, str(entry.data[CONF_API_KEY]))},
             manufacturer="Odense Renovation",
             name="Odense Renovation",
+
         )

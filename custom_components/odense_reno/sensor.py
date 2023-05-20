@@ -21,14 +21,30 @@ from .const import DOMAIN, LOGGER
 from .entity import OdenseRenoEntity
 
 
-@dataclass
 class OdenseRenoSensorDescription(SensorEntityDescription):
     """Odense Reno sensor description"""
 
-    key: str
-    name: str
-    icon: str = "mdi:delete-empty"
-    device_class = SensorDeviceClass.DATE
+    def __init__(
+        self,
+        key,
+        name,
+        icon="mdi:delete-empty",
+        device_class=SensorDeviceClass.DATE,
+        translation_key=None,
+        entity_registry_enabled_default=True,
+        entity_registry_visible_default=True,
+        entity_category=None,
+        force_update=False,
+    ):
+        self.key = key
+        self.name = name
+        self.icon = icon
+        self.device_class = device_class
+        self.translation_key = translation_key
+        self.entity_registry_enabled_default = entity_registry_enabled_default
+        self.entity_registry_visible_default = entity_registry_visible_default
+        self.entity_category = entity_category
+        self.force_update = force_update
 
 
 async def async_setup_entry(
