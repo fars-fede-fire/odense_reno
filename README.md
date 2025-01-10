@@ -1,5 +1,5 @@
 # Odense Renovation
-# Odense Renovation
+# This integration i no longer supported. Consider using https://github.com/briis/affalddk
 
 Home Assistant custom component for getting trash and recycle pickup dates from Odense Renovation
 Home Assistant custom component for getting trash and recycle pickup dates from Odense Renovation
